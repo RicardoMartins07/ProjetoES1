@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 abstract class Repositorio{
-    private Repositorio() { }
+    public Repositorio() { }
     ArrayList<Coima> ListaCoimas = new ArrayList<>();
     ArrayList<Copia> ListaCopias = new ArrayList<>();
     ArrayList<Devolucao> ListaDevolucoes = new ArrayList<>();
