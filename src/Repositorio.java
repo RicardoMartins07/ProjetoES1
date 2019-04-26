@@ -1,18 +1,18 @@
 import java.util.ArrayList;
 
-public abstract class Repositorio {
-    public Repositorio() { }
-    ArrayList<Coima> ListaCoimas = new ArrayList<Coima>();
-    ArrayList<Copia> ListaCopias = new ArrayList<Copia>();
-    ArrayList<Devolucao> ListaDevolucoes = new ArrayList<Devolucao>();
-    ArrayList<Emprestimo> ListaEmprestimos = new ArrayList<Emprestimo>();
-    ArrayList<Livro> ListaLivros = new ArrayList<Livro>();
-    ArrayList<Notificacao> ListaNotificacoes = new ArrayList<Notificacao>();
-    ArrayList<Requisicao> ListaRequisicoes = new ArrayList<Requisicao>();
-    ArrayList<TipoUtilizador> ListaTipos = new ArrayList<TipoUtilizador>();
-    ArrayList<Utilizador> ListaUtilizadores = new ArrayList<Utilizador>();
-    ArrayList<PropostaAquisicao> ListaPropostas = new ArrayList<PropostaAquisicao>();
-    ArrayList<RequisicaoCompra> ListaRequesicoesCompra = new ArrayList<RequisicaoCompra>();
-    ArrayList<Encomenda> ListaEncomendas = new ArrayList<Encomenda>();
-    ArrayList<EntradaNovoLivro> ListaEntradasNovosLivros = new ArrayList<EntradaNovoLivro>();
+abstract class Repositorio{
+    private Repositorio() { }
+    ArrayList<Coima> ListaCoimas = new ArrayList<>();
+    ArrayList<Copia> ListaCopias = new ArrayList<>();
+    ArrayList<Devolucao> ListaDevolucoes = new ArrayList<>();
+    ArrayList<Emprestimo> ListaEmprestimos = new ArrayList<>();
+    ArrayList<Livro> ListaLivros = new ArrayList<>();
+    ArrayList<Notificacao> ListaNotificacoes = new ArrayList<>();
+    ArrayList<Requisicao> ListaRequisicoes = new ArrayList<>();
+    ArrayList<TipoUtilizador> ListaTipos = new ArrayList<>();
+    ArrayList<Utilizador> ListaUtilizadores = new ArrayList<>();
+    ArrayList<PropostaAquisicao> ListaPropostas = new ArrayList<>();
+    ArrayList<RequisicaoCompra> ListaRequesicoesCompra = new ArrayList<>();
+    ArrayList<Encomenda> ListaEncomendas = new ArrayList<>();
+    ArrayList<EntradaNovoLivro> ListaEntradasNovosLivros = new ArrayList<>();
 }

@@ -1,4 +1,4 @@
-public interface IRepositorio {
+interface IRepositorio {
 
     void adicionaPropostaRequisicao(PropostaAquisicao proposta);
     void adicionaRequisicaoCompra(RequisicaoCompra requisicaoCompra);
@@ -14,4 +14,5 @@ public interface IRepositorio {
     void adicionaDevolucao(Devolucao devolucao);
     void adicionaCoima(Coima coima);
     Emprestimo devolveEmprestimoDaRequisicao(Requisicao r);
+
 }
