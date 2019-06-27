@@ -2,7 +2,7 @@
   <artifact type="jar" name="CompraLivro:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/CompraLivro_jar</output-path>
     <root id="archive" name="CompraLivro.jar">
-      <element id="module-output" name="CompraLivro" />
+      <element id="module-output" name="PROJETO_ES1" />
     </root>
   </artifact>
 </component>
