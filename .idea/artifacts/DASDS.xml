@@ -1,6 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="DASDS">
-    <output-path>$PROJECT_DIR$/out/artifacts/DASDS</output-path>
-    <root id="archive" name="DASDS.jar" />
-  </artifact>
-</component>
